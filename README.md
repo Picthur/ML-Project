@@ -5,6 +5,11 @@
 
 Welcome to MCQs.AI, a sophisticated web application designed to automatically generate multiple-choice questions (MCQs) and True/False questions from a given text using advanced machine learning techniques.
 
+### CO-Founders
+- Timothée FOUGERON
+- Arthur BUISSON
+
+
 ## How does MCQs.AI work?
 
 MCQs.AI leverages a combination of modern web technologies and powerful machine learning models to provide an efficient and seamless question generation experience. Below is an overview of the system's components and their interactions:
