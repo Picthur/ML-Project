@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./src/assets/Logo2.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>MCQs.AI</title>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'white-64': 'rgba(255, 255, 255, 0.64)',
+              'white-60': 'rgba(255, 255, 255, 0.60)',
+              'white-32': 'rgba(255, 255, 255, 0.32)',
+              'white-86': 'rgba(255, 255, 255, 0.86)',
+              'white-6': 'rgba(255, 255, 255, 0.06)',
+              'bg-color': '#2B2C33',
+              'orange-color': '#F19E38',
+              'bright-orange': '#FA981F',
+            },
+            fontFamily: {
+              'anonymous-pro': ['"Anonymous Pro"', 'monospace'],
+            },
+            backgroundImage: {
+              'btnBg': "url('./src/assets/btnBg.png')",
+              'GenerateBtnBg': "url('./src/assets/GenerateBtnBg.png')",
+            },
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-bg-color font-anonymous-pro w-full min-h-screen">
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
