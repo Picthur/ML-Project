@@ -39,7 +39,7 @@ To run MCQs.AI locally, you need to have the following installed:
 ### Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/mcqs-ai.git
+   git clone https://github.com/Picthur/ML-Project.git
    ```
 2. Navigate to the project directory:
    ```sh
